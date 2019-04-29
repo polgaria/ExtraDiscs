@@ -1,0 +1,27 @@
+{
+		"schemaVersion": 1,
+		"id": "extradiscs",
+		"version": "${version}",
+		"name": "ExtraDiscs",
+		"description": "Adds in more music discs",
+		"authors": [
+				"geni"
+		],
+		"contact": {
+				"homepage": "https://polgarian.life",
+				"sources": "https://github.com/polgaria/ExtraDiscs",
+				"issues": "https://github.com/polgaria/ExtraDiscs/issues"
+		},
+		"entrypoints": {
+				"main": [
+						"site.geni.ExtraDiscs.ExtraDiscs"
+				]
+		},
+		"license": "MIT",
+		"icon": "assets/extradiscs/icon.png",
+		"environment": "*",
+		"requires": {
+				"fabricloader": ">=0.4.0",
+				"fabric": "*"
+		}
+}
