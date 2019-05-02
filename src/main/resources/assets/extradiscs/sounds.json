@@ -201,7 +201,7 @@
 		"music_disc.oxygene": {
 				"sounds": [
 						{
-								"name": "music/game/nuance1",
+								"name": "music/game/nuance2",
 								"stream": true
 						}
 				]

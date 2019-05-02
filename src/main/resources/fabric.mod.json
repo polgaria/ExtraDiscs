@@ -5,7 +5,8 @@
 		"name": "ExtraDiscs",
 		"description": "Adds in more music discs",
 		"authors": [
-				"geni"
+				"geni",
+				"davvid"
 		],
 		"contact": {
 				"homepage": "https://polgarian.life",
