@@ -1,0 +1,18 @@
+[
+		{
+				"modid": "extradiscs",
+				"name": "ExtraDiscs",
+				"description": "Adds in more music discs",
+				"version": "${version}",
+				"mcversion": "${mcversion}",
+				"url": "https://github.com/polgaria/ExtraDiscs",
+				"updateUrl": "",
+				"authorList": [
+						"geni",
+						"davvid"
+				],
+				"credits": "geni, davvid",
+				"logoFile": "assets/extradiscs/icon.png",
+				"dependencies": []
+		}
+]
