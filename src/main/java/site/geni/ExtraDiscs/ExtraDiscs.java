@@ -31,7 +31,7 @@ import java.util.Map;
 public class ExtraDiscs {
 	public static final String MODID = "extradiscs";
 	public static final String NAME = "ExtraDiscs";
-	public static final String VERSION = "1.0.1-forge1.12.2+build.2";
+	public static final String VERSION = "1.0.1-forge1.12.2+build.3";
 
 	@SidedProxy(serverSide = "site.geni.ExtraDiscs.proxy.CommonProxy", clientSide = "site.geni.ExtraDiscs.proxy.ClientProxy")
 	public static CommonProxy proxy;
@@ -67,7 +67,7 @@ public class ExtraDiscs {
 		public static void onCreeperDeath(final LivingDeathEvent event) {
 			if (event.getEntity() instanceof EntityCreeper) {
 				if (event.getSource().getTrueSource() instanceof EntitySkeleton && ((EntityCreeper) event.getEntity()).getRNG().nextInt(2) == 1) {
-					Item item = ExtraDiscsItems.ITEMS.get(((EntityCreeper) event.getEntity()).getRNG().nextInt(ExtraDiscsItems.ITEMS.size()));
+					Item item = ExtraDiscsItems.ITEMS.get(((EntityCreeper) event.getEntity()).getRNG().nextInt(ExtraDiscsItems.ITEMS.size() + 1));
 					event.getEntity().dropItem(item, 1);
 				}
 			}
