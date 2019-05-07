@@ -37,7 +37,7 @@ public class ExtraDiscs {
 	public void init(final FMLInitializationEvent event) {
 		LootTableList.register(new ResourceLocation(ExtraDiscs.MODID, "inject/simple_dungeon"));
 
-		logger.info("Initialized");
+		logger.info("Version " + VERSION + " initialized");
 	}
 
 	@Mod.EventBusSubscriber(modid = ExtraDiscs.MODID)
