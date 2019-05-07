@@ -61,5 +61,7 @@
 		"item.extradiscs.music_disc_mice_on_venus": "Music Disc",
 		"item.extradiscs.music_disc_dragon_fish": "Music Disc",
 		"item.extradiscs.music_disc_axolotl": "Music Disc",
-		"item.extradiscs.music_disc_shuniji": "Music Disc"
+		"item.extradiscs.music_disc_shuniji": "Music Disc",
+
+		"itemGroup.extradiscs.extradiscs": "ExtraDiscs"
 }

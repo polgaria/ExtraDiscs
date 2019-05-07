@@ -1,7 +1,6 @@
 package site.geni.ExtraDiscs.init;
 
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
@@ -9,7 +8,7 @@ import site.geni.ExtraDiscs.ExtraDiscs;
 import site.geni.ExtraDiscs.item.ModMusicDiscItem;
 
 public class ExtraDiscsItems {
-	private static final Item.Settings SETTINGS = new Item.Settings().stackSize(1).itemGroup(ItemGroup.MISC).rarity(Rarity.RARE);
+	private static final Item.Settings SETTINGS = new Item.Settings().stackSize(1).itemGroup(ExtraDiscs.ITEM_GROUP).rarity(Rarity.RARE);
 
 	public static Item MUSIC_DISC_MINECRAFT;
 	public static Item MUSIC_DISC_CLARK;
