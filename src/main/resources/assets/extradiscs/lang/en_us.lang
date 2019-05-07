@@ -62,3 +62,5 @@ item.record.record_mice_on_venus.name=Music Disc
 item.record.record_dragon_fish.name=Music Disc
 item.record.record_axolotl.name=Music Disc
 item.record.record_shuniji.name=Music Disc
+
+itemGroup.extradiscs=ExtraDiscs

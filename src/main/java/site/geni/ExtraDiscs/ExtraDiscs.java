@@ -1,5 +1,6 @@
 package site.geni.ExtraDiscs;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.entity.monster.EntitySkeleton;
 import net.minecraft.item.Item;
@@ -14,6 +15,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import org.apache.logging.log4j.Logger;
+import site.geni.ExtraDiscs.client.ExtraDiscsCreativeTab;
 import site.geni.ExtraDiscs.init.ExtraDiscsItems;
 import site.geni.ExtraDiscs.proxy.CommonProxy;
 
@@ -21,7 +23,9 @@ import site.geni.ExtraDiscs.proxy.CommonProxy;
 public class ExtraDiscs {
 	public static final String MODID = "extradiscs";
 	public static final String NAME = "ExtraDiscs";
-	public static final String VERSION = "1.0.1-forge1.12.2+build.4";
+	public static final String VERSION = "1.0.2-forge1.12.2+build.5";
+
+	public static final CreativeTabs CREAITVE_TAB = new ExtraDiscsCreativeTab();
 
 	@SidedProxy(serverSide = "site.geni.ExtraDiscs.proxy.CommonProxy", clientSide = "site.geni.ExtraDiscs.proxy.ClientProxy")
 	public static CommonProxy proxy;

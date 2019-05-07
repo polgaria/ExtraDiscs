@@ -17,7 +17,7 @@ public class ExtraDiscsItemRecord extends ItemRecord {
 
 		this.setTranslationKey("record");
 		this.setRegistryName(new ResourceLocation(ExtraDiscs.MODID, name));
-		this.setCreativeTab(CreativeTabs.MISC);
+		this.setCreativeTab(ExtraDiscs.CREAITVE_TAB);
 
 		ExtraDiscsItems.ITEMS.add(this);
 	}

@@ -10,7 +10,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 
-version = "1.0.1-forge1.12.2+build.4"
+version = "1.0.2-forge1.12.2+build.5"
 archivesBaseName = "ExtraDiscs"
 
 sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
