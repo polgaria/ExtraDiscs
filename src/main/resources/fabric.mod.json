@@ -23,6 +23,7 @@
 		"environment": "*",
 		"requires": {
 				"fabricloader": ">=0.4.0",
-				"fabric": "*"
+				"fabric-resource-loader-v0": "*",
+				"fabric-item-groups-v0": "*"
 		}
 }
