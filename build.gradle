@@ -20,9 +20,13 @@ dependencies {
 
     modCompile "net.fabricmc.fabric-api:fabric-resource-loader-v0:${project.fabric_version}"
     modCompile "net.fabricmc.fabric-api:fabric-item-groups-v0:${project.fabric_version}"
+    modCompile "net.fabricmc.fabric-api:fabric-registry-sync-v0:${project.fabric_version}"
+    modCompile "net.fabricmc.fabric-api:fabric-networking-v0:${project.fabric_version}"
 
     include "net.fabricmc.fabric-api:fabric-resource-loader-v0:${project.fabric_version}"
     include "net.fabricmc.fabric-api:fabric-item-groups-v0:${project.fabric_version}"
+    include "net.fabricmc.fabric-api:fabric-registry-sync-v0:${project.fabric_version}"
+    include "net.fabricmc.fabric-api:fabric-networking-v0:${project.fabric_version}"
 }
 
 processResources {
