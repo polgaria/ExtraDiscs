@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '0.2.2-SNAPSHOT'
+	id 'fabric-loom' version '0.2.4-SNAPSHOT'
 }
 
 
@@ -16,17 +16,21 @@ dependencies {
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
 
     mappings "net.fabricmc:yarn:${project.yarn_mappings}"
-    modCompile "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-    modCompile "net.fabricmc.fabric-api:fabric-resource-loader-v0:${project.fabric_version}"
-    modCompile "net.fabricmc.fabric-api:fabric-item-groups-v0:${project.fabric_version}"
-    modCompile "net.fabricmc.fabric-api:fabric-registry-sync-v0:${project.fabric_version}"
-    modCompile "net.fabricmc.fabric-api:fabric-networking-v0:${project.fabric_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api-base:${project.fabric_api_base_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-resource-loader-v0:${project.fabric_resource_loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-item-groups-v0:${project.fabric_item_groups_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-registry-sync-v0:${project.fabric_registry_sync_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-networking-v0:${project.fabric_networking_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-loot-tables-v1:${project.fabric_loot_tables_version}"
 
-    include "net.fabricmc.fabric-api:fabric-resource-loader-v0:${project.fabric_version}"
-    include "net.fabricmc.fabric-api:fabric-item-groups-v0:${project.fabric_version}"
-    include "net.fabricmc.fabric-api:fabric-registry-sync-v0:${project.fabric_version}"
-    include "net.fabricmc.fabric-api:fabric-networking-v0:${project.fabric_version}"
+    include "net.fabricmc.fabric-api:fabric-api-base:${project.fabric_api_base_version}"
+    include "net.fabricmc.fabric-api:fabric-resource-loader-v0:${project.fabric_resource_loader_version}"
+    include "net.fabricmc.fabric-api:fabric-item-groups-v0:${project.fabric_item_groups_version}"
+    include "net.fabricmc.fabric-api:fabric-registry-sync-v0:${project.fabric_registry_sync_version}"
+    include "net.fabricmc.fabric-api:fabric-networking-v0:${project.fabric_networking_version}"
+    include "net.fabricmc.fabric-api:fabric-loot-tables-v1:${project.fabric_loot_tables_version}"
 }
 
 processResources {

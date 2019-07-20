@@ -8,7 +8,7 @@ import site.geni.ExtraDiscs.ExtraDiscs;
 import site.geni.ExtraDiscs.item.ModMusicDiscItem;
 
 public class ExtraDiscsItems {
-	private static final Item.Settings SETTINGS = new Item.Settings().stackSize(1).itemGroup(ExtraDiscs.ITEM_GROUP).rarity(Rarity.RARE);
+	private static final Item.Settings SETTINGS = new Item.Settings().maxCount(1).group(ExtraDiscs.ITEM_GROUP).rarity(Rarity.RARE);
 
 	public static Item MUSIC_DISC_MINECRAFT;
 	public static Item MUSIC_DISC_CLARK;
