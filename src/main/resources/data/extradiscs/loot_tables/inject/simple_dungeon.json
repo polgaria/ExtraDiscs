@@ -1,0 +1,28 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"min": 1.0,
+				"max": 3.0,
+				"type": "uniform"
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 15,
+					"name": "extradiscs:music_disc_sweden"
+				},
+				{
+					"type": "item",
+					"weight": 15,
+					"name": "extradiscs:music_disc_aria_math"
+				},
+				{
+					"type": "empty",
+					"weight": 70
+				}
+			]
+		}
+	]
+}
