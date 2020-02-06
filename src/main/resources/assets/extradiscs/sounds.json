@@ -1,0 +1,258 @@
+{
+		"music_disc.minecraft": {
+				"sounds": [
+						{
+								"name": "music/game/calm1",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.clark": {
+				"sounds": [
+						{
+								"name": "music/game/calm2",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.sweden": {
+				"sounds": [
+						{
+								"name": "music/game/calm3",
+								"stream": true
+						}
+				]
+		},
+
+		"music_disc.biome_fest": {
+				"sounds": [
+						{
+								"name": "music/game/creative/creative1",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.blind_spots": {
+				"sounds": [
+						{
+								"name": "music/game/creative/creative2",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.haunt_muskie": {
+				"sounds": [
+						{
+								"name": "music/game/creative/creative3",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.aria_math": {
+				"sounds": [
+						{
+								"name": "music/game/creative/creative4",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.dreiton": {
+				"sounds": [
+						{
+								"name": "music/game/creative/creative5",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.taswell": {
+				"sounds": [
+						{
+								"name": "music/game/creative/creative6",
+								"stream": true
+						}
+				]
+		},
+
+		"music_disc.alpha": {
+				"sounds": [
+						{
+								"name": "music/game/end/credits",
+								"stream": true
+						}
+				]
+		},
+
+		"music_disc.the_end": {
+				"sounds": [
+						{
+								"name": "music/game/end/end",
+								"stream": true
+						}
+				]
+		},
+
+		"music_disc.subwoofer_lullaby": {
+				"sounds": [
+						{
+								"name": "music/game/hal1",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.living_mice": {
+				"sounds": [
+						{
+								"name": "music/game/hal2",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.haggstrom": {
+				"sounds": [
+						{
+								"name": "music/game/hal3",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.danny": {
+				"sounds": [
+						{
+								"name": "music/game/hal4",
+								"stream": true
+						}
+				]
+		},
+
+		"music_disc.mutation": {
+				"sounds": [
+						{
+								"name": "music/menu/menu1",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.moog_city_2": {
+				"sounds": [
+						{
+								"name": "music/menu/menu2",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.beginning_2": {
+				"sounds": [
+						{
+								"name": "music/menu/menu3",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.floating_trees": {
+				"sounds": [
+						{
+								"name": "music/menu/menu4",
+								"stream": true
+						}
+				]
+		},
+
+		"music_disc.concrete_halls": {
+				"sounds": [
+						{
+								"name": "music/game/nether/nether1",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.dead_voxel": {
+				"sounds": [
+						{
+								"name": "music/game/nether/nether2",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.warmth": {
+				"sounds": [
+						{
+								"name": "music/game/nether/nether3",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.ballad_of_the_cats": {
+				"sounds": [
+						{
+								"name": "music/game/nether/nether4",
+								"stream": true
+						}
+				]
+		},
+
+		"music_disc.key": {
+				"sounds": [
+						{
+								"name": "music/game/nuance1",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.oxygene": {
+				"sounds": [
+						{
+								"name": "music/game/nuance2",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.dry_hands": {
+				"sounds": [
+						{
+								"name": "music/game/piano1",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.wet_hands": {
+				"sounds": [
+						{
+								"name": "music/game/piano2",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.mice_on_venus": {
+				"sounds": [
+						{
+								"name": "music/game/piano3",
+								"stream": true
+						}
+				]
+		},
+
+		"music_disc.shuniji": {
+				"sounds": [
+						{
+								"name": "music/game/water/shuniji",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.axolotl": {
+				"sounds": [
+						{
+								"name": "music/game/water/axolotl",
+								"stream": true
+						}
+				]
+		},
+		"music_disc.dragon_fish": {
+				"sounds": [
+						{
+								"name": "music/game/water/dragon_fish",
+								"stream": true
+						}
+				]
+		}
+}
